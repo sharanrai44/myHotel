@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/lodge
+    username: root
+    password: 123456
+    driverClassName: com.mysql.jdbc.Driver
+
